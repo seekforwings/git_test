@@ -4,3 +4,8 @@ main() {
  String msg = 'hello main';
  module_say().say(msg);
 }
+
+play_music() {
+ module_say().say('start to play music');
+ // start playing music
+}
