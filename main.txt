@@ -1,3 +1,6 @@
+import module_say;
 main() {
  // going to dosomething
+ String msg = 'hello main';
+ module_say().say(msg);
 }
