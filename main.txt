@@ -2,5 +2,6 @@ import module_say;
 main() {
  // going to dosomething
  String msg = 'hello main';
- module_say().say(msg);
+ String msg2 = 'hello main msg2';
+ module_say().say(msg, msg2);
 }
